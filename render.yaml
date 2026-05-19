@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: uw-court-tracker-api
-    runtime: docker
-    plan: free
-    healthCheckPath: /health
-    envVars:
-      - key: PORT
-        value: 8000
